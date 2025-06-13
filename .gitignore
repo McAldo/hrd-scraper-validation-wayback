@@ -1,0 +1,34 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+myenv/
+
+# # Database files
+# *.db
+# hrd.db
+
+# # Output directories
+# output_profiles/
+# output_urls/
+
+# Other directories to ignore
+Old/
+
+# Other files to ignore
+cursorrules.txt
+
+# VS Code workspace
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
