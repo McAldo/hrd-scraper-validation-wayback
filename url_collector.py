@@ -18,7 +18,7 @@ class URLCollector:
                  db_session: Session,
                  delay: float = 2.0,
                  start_page: int = 1,
-                 max_pages: Optional[int] = None):
+                 max_pages: Optional[int] = 20):  ## Max number of profiles to be collected, set to None for no limit
         """
         Crawl paginated listing pages to collect profile URLs.
 
